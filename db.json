@@ -6,13 +6,15 @@
       "content": "I actually don't know what to write here, but I'm trying to make a long text to see how it will look like in the app.",
       "imageUrl": "https://t.ctcdn.com.br/b2gehl3ZRAKUVpehWpv4ZR-yBvE=/i489929.jpeg",
       "postedAt": "2024-03-05T01:12:36.067Z",
-      "upvotes": 0
+      "upvotes": 8
     },
     {
       "title": "This is a title for a new post",
       "content": "Yeah, you guessed it right!\nElon musk 2",
+      "postedAt": "2024-03-05T01:12:36.067Z",
       "imageUrl": "https://media.gettyimages.com/id/1300072335/pt/foto/female-army-solider-saluting-against-sunset-sky.jpg?s=612x612&w=gi&k=20&c=L82ElkDDw6vgpKZ_n8W174Gprzgd1P_KnTKZrvKURrw=",
-      "id": "59ed"
+      "id": "59ed",
+      "upvotes": 6
     }
   ]
 }
