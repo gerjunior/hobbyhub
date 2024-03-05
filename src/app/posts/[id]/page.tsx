@@ -1,10 +1,8 @@
 import Image from 'next/image';
 import { AiOutlineLike } from 'react-icons/ai';
-import { PiTrashSimpleFill } from 'react-icons/pi';
-import { FaPencil } from 'react-icons/fa6';
 import { Post } from '@/app/types';
 import { formatDate } from '@/app/helpers/date';
-import Link from 'next/link';
+import Actions from './actions';
 
 type PageProps = {
   params: {
@@ -37,17 +35,7 @@ export default async function Page({ params: { id } }: PageProps) {
             <p className='text-slate-600'>{post.upvotes} upvotes</p>
           </div>
           <div className='flex flex-row gap-2'>
-            <Link href={`/posts/${post.id}/edit`}>
-              <div className='p-2 bg-slate-200 rounded-full'>
-                <FaPencil size={20} className=' text-slate-400 rounded-full' />
-              </div>
-            </Link>
-            <div className='p-2 bg-slate-200 rounded-full'>
-              <PiTrashSimpleFill
-                size={20}
-                className='text-slate-400 rounded-full'
-              />
-            </div>
+            <Actions post={post} />
           </div>
         </div>
       </div>
