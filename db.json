@@ -9,12 +9,36 @@
       "upvotes": 8
     },
     {
+      "id": "2",
       "title": "This is a title for a new post",
       "content": "Yeah, you guessed it right!\nElon musk 2",
       "postedAt": "2024-03-05T01:12:36.067Z",
       "imageUrl": "https://media.gettyimages.com/id/1300072335/pt/foto/female-army-solider-saluting-against-sunset-sky.jpg?s=612x612&w=gi&k=20&c=L82ElkDDw6vgpKZ_n8W174Gprzgd1P_KnTKZrvKURrw=",
-      "id": "59ed",
       "upvotes": 6
+    },
+    {
+      "id": "3",
+      "title": "Can we talk about cats?",
+      "content": "They're cute!!",
+      "imageUrl": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg",
+      "upvotes": 0,
+      "postedAt": "2024-03-05T23:34:32.562Z"
+    },
+    {
+      "id": "4",
+      "title": "Can we talk about dogs?",
+      "content": "They're loyal!!",
+      "imageUrl": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg",
+      "upvotes": 0,
+      "postedAt": "2024-03-05T23:34:36.311Z"
+    },
+    {
+      "id": "5",
+      "title": "Can we talk about birds?",
+      "content": "They're chirpy!!",
+      "imageUrl": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg",
+      "upvotes": 5,
+      "postedAt": "2024-03-05T23:34:39.812Z"
     }
   ]
 }
