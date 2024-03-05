@@ -15,7 +15,7 @@ export default function PostCard({ post }: PostCardProps) {
       <div className='w-full bg-white flex flex-col items-start justify-between gap-5 p-8 rounded-xl'>
         <p className='text-slate-600'>{formattedDate}</p>
         <p className='font-bold text-slate-950'>{post.title}</p>
-        <p className='text-slate-600'>{post.upvotes} upvotes</p>
+        <p className='text-slate-600'>{post.upvotes || 0} upvotes</p>
       </div>
     </Link>
   );

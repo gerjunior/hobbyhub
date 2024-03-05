@@ -1,5 +1,6 @@
 'use client';
 
+import { revalidatePath } from 'next/cache';
 import { Post } from '../types';
 
 type FormProps = {
@@ -28,6 +29,8 @@ export default function Form({ post }: FormProps) {
       );
       if (response.ok) {
         alert('Post updated successfully');
+        revalidatePath('/');
+        revalidatePath('/posts/' + post!.id);
       } else {
         alert('Error updating post');
       }
@@ -57,12 +60,10 @@ export default function Form({ post }: FormProps) {
         body: JSON.stringify(data),
       });
       if (response.ok) {
-        alert('Post created successfully');
-      } else {
-        alert('Error creating post');
+        revalidatePath('/');
       }
     } catch (error) {
-      alert('Error creating post');
+      console.error('Error creating post');
     }
   };
 
