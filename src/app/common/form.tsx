@@ -2,11 +2,14 @@
 
 import { revalidatePath } from 'next/cache';
 import { Post } from '../types';
+import { useRouter } from 'next/navigation';
 
 type FormProps = {
   post?: Post;
 };
 export default function Form({ post }: FormProps) {
+  const router = useRouter();
+
   const handleUpdatePost = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.currentTarget;
@@ -29,8 +32,7 @@ export default function Form({ post }: FormProps) {
       );
       if (response.ok) {
         alert('Post updated successfully');
-        revalidatePath('/');
-        revalidatePath('/posts/' + post!.id);
+        router.push(`/posts/${post!.id}`);
       } else {
         alert('Error updating post');
       }
@@ -60,10 +62,12 @@ export default function Form({ post }: FormProps) {
         body: JSON.stringify(data),
       });
       if (response.ok) {
-        revalidatePath('/');
+        router.push('/');
+      } else {
+        alert('Error creating post');
       }
     } catch (error) {
-      console.error('Error creating post');
+      alert('Error creating post');
     }
   };
 
