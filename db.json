@@ -9,12 +9,10 @@
       "upvotes": 0
     },
     {
-      "id": "59ed",
       "title": "This is a title for a new post",
-      "content": "Yeah, you guessed it right!",
+      "content": "Yeah, you guessed it right!\nElon musk 2",
       "imageUrl": "https://media.gettyimages.com/id/1300072335/pt/foto/female-army-solider-saluting-against-sunset-sky.jpg?s=612x612&w=gi&k=20&c=L82ElkDDw6vgpKZ_n8W174Gprzgd1P_KnTKZrvKURrw=",
-      "upvotes": 0,
-      "postedAt": "2024-03-05T01:41:31.260Z"
+      "id": "59ed"
     }
   ]
 }

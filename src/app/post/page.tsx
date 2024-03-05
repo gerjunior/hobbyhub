@@ -1,4 +1,4 @@
-import Form from './form';
+import Form from '../common/form';
 
 export default async function Post() {
   return (
