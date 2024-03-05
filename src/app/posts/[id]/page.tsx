@@ -64,8 +64,12 @@ export default function Page({ params: { id } }: PageProps) {
         <p className='text-slate-600'>{post.content}</p>
         <Image src={post.imageUrl} alt={post.title} width={300} height={300} />
         <div className='flex flex-row justify-between items-center w-full'>
-          <div className='flex flex-row gap-3 items-center mt-5'>
-            <AiOutlineLike size={20} onClick={handleUpvote} />
+          <div className='flex flex-row gap-3 items-center mt-5 select-none'>
+            <AiOutlineLike
+              size={20}
+              onClick={handleUpvote}
+              className='cursor-pointer'
+            />
             <p className='text-slate-600'>{post.upvotes || 0} upvotes</p>
           </div>
           <div className='flex flex-row gap-2'>
