@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "content": "the content of the post",
+      "imageUrl": "https://t.ctcdn.com.br/b2gehl3ZRAKUVpehWpv4ZR-yBvE=/i489929.jpeg"
+    },
+    {
+      "id": "001c",
+      "title": "TITLE",
+      "content": "CONTENT",
+      "imageUrl": "IMAGE"
+    },
+    {
+      "id": "9492",
+      "title": "test",
+      "content": "test",
+      "imageUrl": "test"
+    }
+  ]
+}
