@@ -8,6 +8,8 @@ export default function Form() {
       title: formData.get('title'),
       content: formData.get('content'),
       imageUrl: formData.get('imageUrl'),
+      upvotes: 0,
+      postedAt: new Date().toISOString(),
     };
     try {
       const response = await fetch(process.env.NEXT_PUBLIC_API_URL + '/posts', {
