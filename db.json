@@ -1,14 +1,6 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "What is the best title for a post?",
-      "content": "I actually don't know what to write here, but I'm trying to make a long text to see how it will look like in the app.",
-      "imageUrl": "https://t.ctcdn.com.br/b2gehl3ZRAKUVpehWpv4ZR-yBvE=/i489929.jpeg",
-      "postedAt": "2024-03-05T01:12:36.067Z",
-      "upvotes": 8
-    },
-    {
       "id": "2",
       "title": "This is a title for a new post",
       "content": "Yeah, you guessed it right!\nElon musk 2",
@@ -37,8 +29,26 @@
       "title": "Can we talk about birds?",
       "content": "They're chirpy!!",
       "imageUrl": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg",
-      "upvotes": 5,
-      "postedAt": "2024-03-05T23:34:39.812Z"
+      "upvotes": 23,
+      "postedAt": "2024-03-05T23:34:39.812Z",
+      "comments": [
+        {
+          "content": "CUUUUTE!",
+          "id": "bat7sc7"
+        },
+        {
+          "content": "love u",
+          "id": "tz4zy0b"
+        },
+        {
+          "content": "test!!",
+          "id": "0c2drl8"
+        },
+        {
+          "content": "momom!!!",
+          "id": "25h8u51"
+        }
+      ]
     }
   ]
 }

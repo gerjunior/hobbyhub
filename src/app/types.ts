@@ -1,3 +1,8 @@
+export type Comment = {
+  id: string;
+  content: string;
+};
+
 export type Post = {
   id: string;
   title: string;
@@ -5,4 +10,5 @@ export type Post = {
   upvotes: number;
   postedAt: string;
   imageUrl: string;
+  comments: Comment[];
 };
